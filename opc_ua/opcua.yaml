@@ -1,0 +1,11 @@
+communications:
+  name: TEST
+  url: opc.tcp://10.0.1.23:53530/OPCUA/SimulationServer
+  username:
+  password: 
+  namespace: 5
+data:
+  - type: int32
+    identifier: Counter1
+    name: execution
+  
